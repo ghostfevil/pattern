@@ -1,0 +1,13 @@
+com.ghost.creator.builder
+com.ghost.creator.factory.abstraction
+com.ghost.creator.factory.method
+com.ghost.creator.factory.simple
+com.ghost.creator.prototype
+com.ghost.creator.singleton
+com.ghost.pattern
+com.ghost.pattern.creator.builder
+com.ghost.pattern.creator.factory.abstraction
+com.ghost.pattern.creator.factory.method
+com.ghost.pattern.creator.factory.simple
+com.ghost.pattern.creator.prototype
+com.ghost.pattern.creator.singleton
