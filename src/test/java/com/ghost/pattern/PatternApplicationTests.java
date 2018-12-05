@@ -10,9 +10,7 @@ import java.io.InputStream;
 import java.lang.management.ManagementFactory;
 import java.lang.management.MemoryManagerMXBean;
 import java.lang.management.MemoryPoolMXBean;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
+import java.util.*;
 import java.util.stream.IntStream;
 
 @RunWith(SpringRunner.class)
@@ -129,6 +127,31 @@ public class PatternApplicationTests {
     {
         System.out.println((6/10));
         Math.ceil(1/2);
+    }
+
+    @Test
+    public void  calenderTest()
+    {
+        Calendar calendar=Calendar.getInstance();
+        System.out.println(calendar.toInstant());
+    }
+
+    public void gotoTest()
+    {
+        String test=new String("abc");
+
+
+        loop:for(int i=0;i<10;i++)
+        {
+            i+=2;
+            if (i<10)
+            {
+                continue loop;
+            }
+        }
+
+
+
     }
 
 

@@ -25,8 +25,9 @@ public abstract class Mediator {
         this.c2=c2;
     }
 
+    //定义通信接口1
     public abstract void doSomething1();
-
+    //定义通信接口2
     public abstract void doSomething2();
 
 
