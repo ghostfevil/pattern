@@ -1,0 +1,7 @@
+package com.ghost.structure.decorator;
+
+public abstract class CondimentDecorator implements Beverage {
+
+    protected Beverage beverage;
+
+}
